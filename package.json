@@ -15,6 +15,7 @@
   ],
   "author": "Kartik Verma",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "~1.8.2",
+    "node-exiftool": "~2.3.0"
   }
 }
