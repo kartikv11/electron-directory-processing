@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Directory Processing Electron App!</title>
+  </head>
+  <body>
+    <h1>Select Directory to Processs!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <input id="myFile" type="file" webkitdirectory>
+    <button id="submitBtn" type="submit" value="submit" name="submit">Process</button>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
