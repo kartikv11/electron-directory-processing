@@ -13,7 +13,7 @@
     "start",
     "tutorial"
   ],
-  "author": "GitHub",
+  "author": "Kartik Verma",
   "devDependencies": {
     "electron": "~1.8.2"
   }
